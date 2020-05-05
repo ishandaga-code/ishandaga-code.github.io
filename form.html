@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Comment like this -->
+<html>
+<head>
+	<title>Register</title><br>
+	<a href="index.html"><h3>Return to Home!</h3></a>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h2> Register!</h2>
+	<form method="GET" >
+		Name: <input type="text" name="Name" required><br>
+		Age: <input type="date" name="age"><br>
+		Email: <input type="email" name="email"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="male"> Male<br>
+		<input type="radio"name="gender" value="female"> Female<br>
+		Profession:
+		<select>
+			<option> --Choose-- </option>
+			<option value="Student" name="profession">Student </option> 
+			<option value="Professional" name= "profession">Professional </option>
+		</select><br>
+		Password: <input type="password" minlength="8" name="password">
+		<br> <input type="submit">
+		<input type="reset">
+	</form>
+</body>
+</html>
+
